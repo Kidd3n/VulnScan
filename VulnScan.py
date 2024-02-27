@@ -21,5 +21,5 @@ def scan_network(network):
         print('')
 
 if __name__ == "__main__":
-    network_address = input("[?] IP de la red local (Ej: 192.168.1.0): ")
+    network_address = input("\n[?] IP de la red local (Ej: 192.168.1.0): ")
     scan_network(network_address + '/24')
